@@ -6,67 +6,67 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "Qual o seu personagem favorito em Lego Ninja Go",
         alternativas: [
             {
-                texto: "Texto 1.1",
-                afirmacao: "Afirmação 1.1"
+                texto: "Cole",
+                afirmacao: "Forte"
             },
             {
-                texto: "Texto 1.2",
-                afirmacao: "Afirmação 1.2"
+                texto: "Kai",
+                afirmacao: "Bravo"
             }
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Qual a sua temporada favorita",
         alternativas: [
             {
-                texto: "Texto 2.1",
-                afirmacao: "Afirmação 2.1"
+                texto: "Temporada 3 Reiniciado",
+                afirmacao: ", nindroide"
             },
             {
-                texto: "Texto 2.2",
-                afirmacao: "Afirmação 2.2"
+                texto: "Temporada 5 Possessão",
+                afirmacao: ", assutador"
             }
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Qual base dos ninjas vc prefere",
         alternativas: [
             {
-                texto: "Texto 3.1",
-                afirmacao: "Afirmação 3.1"
+                texto: "Navio Recompensa do Destino",
+                afirmacao: "mestre elementar do vento"
             },
             {
-                texto: "Texto 3.2",
-                afirmacao: "Afirmação 3.2"
+                texto: "Monastério",
+                afirmacao: "mestre elementar da terra"
             }
         ]
     },
     {
-        enunciado: "Pergunta 4",
+        enunciado: "Seu nindroide favorrito",
         alternativas: [
             {
-                texto: "Texto 4.1",
-                afirmacao: "Afirmação 4.1"
+                texto: "Zane",
+                afirmacao: ", esperto"
             },
             {
-                texto: "Texto 4.2",
-                afirmacao: "Afirmação 4.2"
+                texto: "Pixel",
+                afirmacao: ", tarado"
             }
         ]
     },
     {
-        enunciado: "Pergunta 5",
+        enunciado: "Vocẽ assistiu NinjaGo na tv ou na Netflix?",
         alternativas: [
             {
-                texto: "Texto 5.1",
-                afirmacao: "Afirmação 5.1"
+                texto: "TV",
+                afirmacao: "e Ansião"
             },
             {
                 texto: "Texto 5.2",
-                afirmacao: "Afirmação 5.2"
+                afirmacao: "e Jovem"
             }
         ]
     },
@@ -109,7 +109,7 @@ function respostaSelecionada(opcaoSelecionada) {
 
 //Essa função tem como objetivo exibir a narrativa final baseada nas respostas do usuário.
 function mostraResultado() {
-    caixaPerguntas.textContent = "De acordo com suas respostas, este é seu..."; //Define o conteúdo de texto do elemento caixaPerguntas para informar o usuário sobre o resultado.
+    caixaPerguntas.textContent = "De acordo com suas respostas, você é um ninja"; //Define o conteúdo de texto do elemento caixaPerguntas para informar o usuário sobre o resultado.
     textoResultado.textContent = historiaFinal; //Define o conteúdo de texto do elemento textoResultado como a narrativa final acumulada.
     caixaAlternativas.textContent = ""; // Limpa o conteúdo do elemento caixaAlternativas.
 }
