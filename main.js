@@ -65,7 +65,7 @@ const perguntas = [
                 afirmacao: "e Ansião"
             },
             {
-                texto: "Texto 5.2",
+                texto: "Netflix",
                 afirmacao: "e Jovem"
             }
         ]
